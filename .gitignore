@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+/NOTAS/
 
 ### STS ###
 .apt_generated
@@ -28,6 +29,13 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
 ### VS Code ###
 .vscode/
